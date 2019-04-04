@@ -33,7 +33,6 @@ ser.isOpen()
 
 def animate(i):
 	xar.append(i)
-	#yar.append(99-i)
 	data = ser.readline()
 	data = str(data)
 	b= data.find('log')
